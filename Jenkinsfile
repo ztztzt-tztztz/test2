@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // 从 Git 仓库拉取代码
-                git 'https://github.com/ztztzt-tztztz/test2.git'
+                sh 'ls'
             }
         }
 
